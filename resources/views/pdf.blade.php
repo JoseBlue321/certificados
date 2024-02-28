@@ -4,15 +4,23 @@
 <body>
 
     <div class="container">
+
+
+
+
+
+
+
+        
         <div class="row justify-content-center align-items-center">
             <div class="col-md-2">
-                <img src="{{ public_path('img/logo_medicina.png') }}" alt="logo">
+                <img src="{{ asset('img/umsa.png')}}" height="100px" width="100px" alt="" >
             </div>
             <div class="col-md-8">
                 hola
             </div>
             <div class="col-md-2">
-                <img src="{{ asset('img/umsa.png')}}" alt="" >
+                <img src="{{ asset('img/logo_medicina.png')}}" height="100px" width="100px" alt="" >
             </div>
         </div>
         <div class="row justify-content-center align-items-center g-2">

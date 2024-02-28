@@ -56,6 +56,7 @@ class EventoController extends Controller
         // Configurar DomPDF
         $dompdf = new Dompdf();
         $dompdf->loadHtml($html);
+        $dompdf->set_option('isRemoteEnabled','true');
 
         // (Opcional) Configurar opciones de visualización (tamaño de papel, etc.)
         $dompdf->setPaper('latter', 'portrait');
